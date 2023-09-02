@@ -11,7 +11,8 @@ export const Home = () => {
         <h2 className='text-xl font-serif lg:text-2xl'>Sign up today! </h2>
         <div className='mt-10 flex flex-row justify-center'>
             <Button className='w-[100px] mr-2 bg-[#004C6C] shadow-lg'>Sign Up</Button>
-            <Button className='w-[100px] ml-2 bg-[#004C6C] shadow-lg'>Sign In</Button>
+            <Button className='w-[100px] ml-2 mr-2 bg-[#004C6C] shadow-lg'>Sign In</Button>
+            <Button className='w-[130px] ml-2 bg-[#004C6C] shadow-lg'>Learn More</Button>
         </div>
 
     </div>
