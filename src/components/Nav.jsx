@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import AvatarImg from "../assets/Avatars/rubber-gloves-48.png"
 import Logo from "../assets/housework-helper-high-resolution-logo-color-on-transparent-background.png"
 import { IsLoggedInContext } from '../App'
+import { useNavigate } from 'react-router';
 import {
   Navbar,
   MobileNav,
@@ -154,6 +155,7 @@ function NavList() {
 export function ComplexNavbar() {
   const [isNavOpen, setIsNavOpen] = React.useState(false);
   const {isLoggedIn} = useContext(IsLoggedInContext);
+  const navigate = useNavigate();
  
   const toggleIsNavOpen = () => setIsNavOpen((cur) => !cur);
  
@@ -172,7 +174,7 @@ export function ComplexNavbar() {
           href="#"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          <img src={Logo} className="h-[30px]" alt="" />
+          <img src={Logo} className="h-[30px]" alt="" onClick={()=> navigate('/')}/>
         </Typography>
 
 
