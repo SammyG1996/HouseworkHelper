@@ -4,6 +4,7 @@ import {ComplexNavbar} from './components/Nav';
 import { Home } from './components/Home';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { About } from './components/About';
+import { SignIn } from './components/SignIn';
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Routes>
             <Route exact path={'/'} element={<Home />} />
             <Route exact path={'/learn-more'} element={<About />} />
+            <Route exact path={'/signin'} element={<SignIn />} />
           </Routes>
           
 
