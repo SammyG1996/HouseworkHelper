@@ -19,7 +19,7 @@ export const Home = () => {
   return (
     <div className='flex justify-center h-[100%] bg-[#294d61]'>
 
-    <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[70vh] mt-20">
+    <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[75vh] mt-20">
           <CardHeader className="relative">
             <img
               src={Cleaning}
@@ -32,7 +32,7 @@ export const Home = () => {
             WELCOME TO
             </Typography>
             <img src={Logo} className="w-[60%] mx-auto" alt="" />
-            <Typography className='font-logo font-thin text-[#072E33]'>
+            <Typography className='font-logo font-thin text-[#072E33] mt-5'>
             Our mission is to simplify your household tasks.
             </Typography>
             <Typography className='font-logo font-thin text-[#072E33]'>

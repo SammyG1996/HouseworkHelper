@@ -28,18 +28,18 @@ export const About = () => {
                     WHAT IS HOUSEWORK HELPER?
                     </Typography>
                     <Typography>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Tired of the constant struggle to keep those household chores in check? 🧹🏡</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Say goodbye to the chaos with Housework Helper, your ultimate web app solution! 🚀</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Household chores can be a real headache, especially when everyone in the family is involved.</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>But fear not, because Housework Helper is here to save the day! 💪✨</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Housework Helper is not just a web app; it's your secret weapon for conquering those chores effortlessly. 💻✅</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Imagine this: You log in, create a new task with a few clicks, assign it to your family member(s), choose a due date, and voilà! ✨📅</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>But that's not all - Housework Helper takes care of the rest! 🤖📢</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>It sends gentle reminders to those responsible, ensuring no task ever slips through the cracks again. 📩🔔</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>And for those recurring chores? No problem! Housework Helper lets you set the interval and then...just set it and forget it! 🔄🤯</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>No more racking your brain about when you last tackled that dusty couch or cleaned out the fridge. 🛋️🍽️</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Housework Helper's got your back, so you can enjoy a tidy, stress-free home without the hassle. 🌟🏠</p>
-                        <p className='text-md font-logo font-thin text-[#05161A] lg:text-xl mt-5'>Don't let chores bring you down; let Housework Helper bring the sparkle back to your home life online! 💎✨</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Tired of the constant struggle to keep those household chores in check? 🧹🏡</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Say goodbye to the chaos with Housework Helper, your ultimate web app solution! 🚀</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Household chores can be a real headache, especially when everyone in the family is involved.</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>But fear not, because Housework Helper is here to save the day! 💪✨</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Housework Helper is not just a web app; it's your secret weapon for conquering those chores effortlessly. 💻✅</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Imagine this: You log in, create a new task with a few clicks, assign it to your family member(s), choose a due date, and voilà! ✨📅</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>But that's not all - Housework Helper takes care of the rest! 🤖📢</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>It sends gentle reminders to those responsible, ensuring no task ever slips through the cracks again. 📩🔔</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>And for those recurring chores? No problem! Housework Helper lets you set the interval and then...just set it and forget it! 🔄🤯</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>No more racking your brain about when you last tackled that dusty couch or cleaned out the fridge. 🛋️🍽️</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Housework Helper's got your back, so you can enjoy a tidy, stress-free home without the hassle. 🌟🏠</p>
+                        <p className='text-sm font-logo font-thin text-[#05161A] lg:text-lg mt-5'>Don't let chores bring you down; let Housework Helper bring the sparkle back to your home life online! 💎✨</p>
                     </Typography>
                 </CardBody>
                 <CardFooter className="pt-0">

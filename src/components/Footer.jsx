@@ -66,7 +66,7 @@ export function Footer() {
         &copy; 2023 Housework Helper
       </Typography>      
       <Typography color="blue-gray" className="text-center font-normal">
-        Photos courtesy of: Freepik, Pexels
+        Photos courtesy of: Freepik
       </Typography>
     </footer>
   );
