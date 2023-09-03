@@ -7,6 +7,7 @@ import { About } from './components/About';
 import { SignIn } from './components/SignIn';
 import { Footer } from './components/Footer';
 import { SignUp } from './components/SignUp';
+import { LoggedInHome } from './components/LoggedInHome';
 
 
 
@@ -40,6 +41,7 @@ function App() {
             <Route exact path={'/learn-more'} element={<About />} />
             <Route exact path={'/signin'} element={<SignIn />} />
             <Route exact path={'/signup'} element={<SignUp />} />
+            <Route exact path={'/logged-in-homepage'} element={<LoggedInHome />} />
           </Routes>
           <Footer />
 
