@@ -38,9 +38,9 @@ export const Home = () => {
             </Typography>
           </CardBody>
           <CardFooter className="pt-0">
-            <Button className='w-[100px] mx-1 bg-[#004C6C] shadow-lg'>Sign Up</Button>
-            <Button className='w-[100px] mx-1 bg-[#004C6C] shadow-lg' onClick={()=> navigate('/signin')} >Sign In</Button>
-            <Button className='w-[130px] mx-1 bg-[#004C6C] shadow-lg' onClick={()=> navigate('/learn-more')} >Learn More</Button>
+            <Button className='w-[100px] mt-2 mx-1 bg-[#004C6C] shadow-lg'>Sign Up</Button>
+            <Button className='w-[100px] mt-2 mx-1 bg-[#004C6C] shadow-lg' onClick={()=> navigate('/signin')} >Sign In</Button>
+            <Button className='w-[130px] mt-2 mx-1 bg-[#004C6C] shadow-lg' onClick={()=> navigate('/learn-more')} >Learn More</Button>
           </CardFooter>
         </Card>
 
