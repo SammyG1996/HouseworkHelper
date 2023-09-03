@@ -31,7 +31,7 @@ export const Home = () => {
             Welcome To Housework Helper
             </Typography>
             <Typography>
-            Our mission is to simplify household tasks.
+            Our mission is to simplify your household tasks.
             </Typography>
             <Typography>
             Sign up today!
