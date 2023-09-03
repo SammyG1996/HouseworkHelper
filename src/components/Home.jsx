@@ -27,8 +27,8 @@ export const Home = () => {
               
             />
           </CardHeader>
-          <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2 font-logo text-[#072E33]">
+          <CardBody className='p-3'>
+            <Typography variant="h5" color="blue-gray" className="font-logo text-[#072E33]">
             WELCOME TO
             </Typography>
             <img src={Logo} className="w-[60%] mx-auto" alt="" />
