@@ -43,7 +43,7 @@ export const About = () => {
                     </Typography>
                 </CardBody>
                 <CardFooter className="pt-0">
-                    <Button className='w-[170px] ml-2 font-logo font-thin bg-[#6DA5C0] shadow-lg mx-auto mt-10 mb-20' onClick={()=> navigate('/')} >Sign Up Today!</Button>
+                    <Button className='w-[170px] ml-2 font-logo font-thin bg-[#6DA5C0] shadow-lg mx-auto mt-10 mb-20' onClick={()=> navigate('/signup')} >Sign Up Today!</Button>
                 </CardFooter>
             </Card>
 

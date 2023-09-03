@@ -13,8 +13,8 @@ import {
 } from "@material-tailwind/react";
 import { useNavigate } from 'react-router';
  
-export function SignIn() {
-  const navigate = useNavigate();
+export function SignUp() {
+  const navigate = useNavigate()
   return (
     <div className='flex justify-center mx-auto my-20'>
 
@@ -28,25 +28,24 @@ export function SignIn() {
               </CardHeader>
             <CardBody className="flex flex-col gap-4">
               <Input label="Email" size="lg" />
+              <Input label="Username" size="lg" />
               <Input label="Password" size="lg" />
-              <div className="-ml-2.5">
-                <Checkbox label="Remember Me" />
-              </div>
+              <Input label="Confirm Password" size="lg" />
             </CardBody>
             <CardFooter className="pt-0">
               <Button fullWidth className='font-logo font-thin bg-[#6DA5C0]'>
-                Sign In
+                Sign Up
               </Button >
               <Typography variant="small" className="mt-6 flex justify-center font-logo font-thin text-[#072E33]">
-                Don&apos;t have an account?
+                Already have an account?
                 <Typography
                   as="a"
-                  onClick={()=> navigate('/signup')}
+                  onClick={()=> navigate('/signin')}
                   variant="small"
                   color="blue-gray"
                   className="ml-1 font-thin font-logo text-[#0C7075]"
                 >
-                  Sign up
+                  Sign In
                 </Typography>
               </Typography>
             </CardFooter>

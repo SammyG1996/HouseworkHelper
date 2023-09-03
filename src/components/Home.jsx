@@ -40,7 +40,7 @@ export const Home = () => {
             </Typography>
           </CardBody>
           <CardFooter className="pt-0">
-            <Button className='w-[110px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg'>Sign Up</Button>
+            <Button className='w-[110px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/signup')} >Sign Up</Button>
             <Button className='w-[110px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/signin')} >Sign In</Button>
             <Button className='w-[150px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/learn-more')} >Learn More</Button>
           </CardFooter>

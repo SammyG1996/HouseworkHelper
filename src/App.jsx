@@ -6,6 +6,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { About } from './components/About';
 import { SignIn } from './components/SignIn';
 import { Footer } from './components/Footer';
+import { SignUp } from './components/SignUp';
 
 
 
@@ -38,6 +39,7 @@ function App() {
             <Route exact path={'/'} element={<Home />} />
             <Route exact path={'/learn-more'} element={<About />} />
             <Route exact path={'/signin'} element={<SignIn />} />
+            <Route exact path={'/signup'} element={<SignUp />} />
           </Routes>
           <Footer />
 
