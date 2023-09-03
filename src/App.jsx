@@ -5,7 +5,7 @@ import { Home } from './components/Home';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { About } from './components/About';
 import { SignIn } from './components/SignIn';
-
+import { Footer } from './components/Footer';
 
 
 
@@ -39,7 +39,7 @@ function App() {
             <Route exact path={'/learn-more'} element={<About />} />
             <Route exact path={'/signin'} element={<SignIn />} />
           </Routes>
-          
+          <Footer />
 
         </IsLoggedInContext.Provider>
     </div>

@@ -14,7 +14,7 @@ import {
  
 export function SignIn() {
   return (
-    <div className='flex justify-center mx-auto mt-20'>
+    <div className='flex justify-center mx-auto my-20'>
 
       <Card className="w-[80vw] md:w-[50vw] lg:w-[35vw]">
               <CardHeader color="white" className="relative">

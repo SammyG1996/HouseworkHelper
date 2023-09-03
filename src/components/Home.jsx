@@ -17,7 +17,7 @@ export const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className='flex justify-center h-[60vh] bg-[#294d61]'>
+    <div className='flex justify-center h-[100%] bg-[#294d61]'>
 
     <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[70vh] mt-20">
           <CardHeader className="relative">
