@@ -13,10 +13,10 @@ import {
 export const About = () => {
   const navigate = useNavigate();
   return (
-    <div className='w-[100vw] vh-[100%] bg-[#294d61] flex justify-center'>
+    <div className='w-[100vw] vh-[100%] bg-[#294d61] flex justify-center '>
       
 
-            <Card className="mt-20 mb-20 w-[90%] md:w-[65%] lg:w-[50%]">
+            <Card className="mt-20 mb-20 w-[90%] md:w-[65%] lg:w-[50%] animate-fade-right animate-once animate-ease-in-out animate-normal">
                 <CardHeader color="blue-gray" className="relative">
                     <img
                     src={Logo}

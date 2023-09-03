@@ -18,7 +18,7 @@ export function SignIn() {
   return (
     <div className='flex justify-center mx-auto my-20'>
 
-      <Card className="w-[80vw] md:w-[50vw] lg:w-[35vw]">
+      <Card className="w-[80vw] md:w-[50vw] lg:w-[35vw] animate-fade-right animate-once animate-ease-in-out animate-normal">
               <CardHeader color="white" className="relative">
                   <img
                   src={Logo}

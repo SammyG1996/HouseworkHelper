@@ -19,7 +19,7 @@ export const Home = () => {
   return (
     <div className='flex justify-center h-[100%] bg-[#294d61]'>
 
-    <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[470px] md:h-[70vh] mt-20">
+    <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[470px] md:h-[70vh] mt-20 animate-fade-right animate-once animate-ease-in-out animate-normal">
           <CardHeader className="relative">
             <img
               src={Cleaning}
