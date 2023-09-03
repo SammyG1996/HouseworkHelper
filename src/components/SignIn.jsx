@@ -32,17 +32,17 @@ export function SignIn() {
               </div>
             </CardBody>
             <CardFooter className="pt-0">
-              <Button variant="gradient" fullWidth>
+              <Button fullWidth className='font-logo font-thin bg-[#6DA5C0]'>
                 Sign In
               </Button >
-              <Typography variant="small" className="mt-6 flex justify-center">
+              <Typography variant="small" className="mt-6 flex justify-center font-logo font-thin text-[#072E33]">
                 Don&apos;t have an account?
                 <Typography
                   as="a"
                   href="#signup"
                   variant="small"
                   color="blue-gray"
-                  className="ml-1 font-bold"
+                  className="ml-1 font-thin font-logo text-[#0C7075]"
                 >
                   Sign up
                 </Typography>

@@ -167,7 +167,7 @@ export function ComplexNavbar() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
+    <Navbar className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6 !bg-white">
       <div className="relative mx-auto flex justify-between text-blue-gray-900 ">
         <Typography
           as="a"

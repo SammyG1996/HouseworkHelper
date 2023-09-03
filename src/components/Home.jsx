@@ -12,13 +12,14 @@ import {
 import { useNavigate } from 'react-router';
 
 
+
 export const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className='flex justify-center h-[60vh] bg-[#f0f0f0]'>
+    <div className='flex justify-center h-[60vh] bg-[#294d61]'>
 
-    <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[60vh] mt-20">
+    <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[70vh] mt-20">
           <CardHeader className="relative">
             <img
               src={Cleaning}
@@ -27,20 +28,21 @@ export const Home = () => {
             />
           </CardHeader>
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2">
-            Welcome To Housework Helper
+            <Typography variant="h5" color="blue-gray" className="mb-2 font-logo text-[#072E33]">
+            WELCOME TO
             </Typography>
-            <Typography>
+            <img src={Logo} className="w-[60%] mx-auto" alt="" />
+            <Typography className='font-logo font-thin text-[#072E33]'>
             Our mission is to simplify your household tasks.
             </Typography>
-            <Typography>
+            <Typography className='font-logo font-thin text-[#072E33]'>
             Sign up today!
             </Typography>
           </CardBody>
           <CardFooter className="pt-0">
-            <Button className='w-[100px] mt-2 mx-1 bg-[#004C6C] shadow-lg'>Sign Up</Button>
-            <Button className='w-[100px] mt-2 mx-1 bg-[#004C6C] shadow-lg' onClick={()=> navigate('/signin')} >Sign In</Button>
-            <Button className='w-[130px] mt-2 mx-1 bg-[#004C6C] shadow-lg' onClick={()=> navigate('/learn-more')} >Learn More</Button>
+            <Button className='w-[110px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg'>Sign Up</Button>
+            <Button className='w-[110px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/signin')} >Sign In</Button>
+            <Button className='w-[150px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/learn-more')} >Learn More</Button>
           </CardFooter>
         </Card>
 

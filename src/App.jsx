@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div className="App h-[100vh] bg-[#f0f0f0]">
+    <div className="App h-[100vh] bg-[#294d61]">
         <IsLoggedInContext.Provider value={{isLoggedIn}}>
           <ComplexNavbar />
           <Routes>
