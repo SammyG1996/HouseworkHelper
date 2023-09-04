@@ -26,7 +26,7 @@ export const Home = () => {
     <div className='flex flex-col justify-center bg-[#294d61]'>
 
     <div className='flex justify-center'>
-      <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[470px] md:h-[70vh] my-20 animate-fade-right animate-once animate-ease-in-out animate-normal">
+      <Card className="w-[90%] md:w-[65%] lg:w-[50%] h-[400px] md:h-[70vh] my-20 animate-fade-right animate-once animate-ease-in-out animate-normal">
             <CardHeader className="relative">
               <img
                 src={Cleaning}
@@ -44,7 +44,7 @@ export const Home = () => {
               </Typography>
               <Typography className='font-sans text-[#072E33]'>
               <Button className='w-[160px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/signup')} >Sign Up Today‼️</Button>
-              <Button className='w-[130px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/login')} >Or Login 😁</Button>
+              <Button className='w-[140px] font-logo font-thin mt-2 mx-1 bg-[#6DA5C0] shadow-lg' onClick={()=> navigate('/signin')} >Or Sign In 😁</Button>
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
@@ -58,7 +58,7 @@ export const Home = () => {
 
 
       <div className='flex justify-center'>
-          <Card className="flex-row w-[90%] md:w-[65%] lg:w-[50%] my-20">
+          <Card className="flex-row w-[90%] md:w-[65%] lg:w-[50%] mb-20 animate-fade-right animate-once animate-ease-in-out animate-normal">
           <CardHeader
             shadow={false}
             floated={false}
@@ -71,7 +71,7 @@ export const Home = () => {
             />
           </CardHeader>
           <CardBody>
-            <Typography variant="h4" color="blue-gray" className="mb-2">
+            <Typography variant="h4" color="blue-gray" className="mb-2 font-logo font-thin text-[#072E33]">
               What is Housework Helper?
             </Typography>
             <Typography color="gray" className="mb-8 font-normal">
