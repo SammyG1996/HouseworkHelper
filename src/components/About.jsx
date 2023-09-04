@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router';
 import {
     Card,
@@ -9,9 +9,16 @@ import {
     Button,
   } from "@material-tailwind/react";
   import Logo from "../assets/cleaning.jpeg"
+  import {scrollToTop} from "../helpers/scroll"
+  
 
 export const About = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+      scrollToTop();
+  }, []);
+
   return (
     <div className='w-[100vw] vh-[100%] bg-[#294d61] flex justify-center '>
       

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Logo from '../assets/housework-helper-high-resolution-logo-color-on-transparent-background.png'
 
 import {
@@ -12,9 +12,14 @@ import {
   Button,
 } from "@material-tailwind/react";
 import { useNavigate } from 'react-router';
+import { scrollToTop } from '../helpers/scroll';
  
 export function SignUp() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  useEffect(() => {
+    scrollToTop();
+  }, []);
+
   return (
     <div className='flex justify-center mx-auto my-20'>
 
